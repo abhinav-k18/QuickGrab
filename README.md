@@ -65,6 +65,52 @@ this overview page aggregates your core ecommerce metrics into one place. by wir
 - data modeled on **star schema** with semantic measures  
 - visuals: bar charts, donut charts, sparklines, tables  
 
+
+## over the days page
+
+> 🔎 this page dives into daily and yearly sales trends, letting you slice by item type and see how performance evolves over time.
+
+---
+
+### features
+
+- **line chart: total sales by month & outlet size**  
+  - displays monthly sales broken down by outlet size (high, medium, small)  
+  - hover to inspect exact values and compare outlet tiers  
+  - dynamic: respects both the **metric slicer** (from the overview page) and the **item type** filter  
+
+- **waterfall chart: total sales by year & item type**  
+  - shows annual sales progression, stacking “increase” and “decrease” segments around the total  
+  - highlights how each year’s change contributes to the overall sales trend  
+  - useful for spotting years of significant growth or decline across all item categories  
+
+- **item type filter**  
+  - located in the left pane as a checklist  
+  - select one or more categories (e.g., Bakery, Dairy, Snack Foods)  
+  - both charts instantly update to reflect only the chosen item types, revealing focused trends  
+
+---
+
+### how to use
+
+1. open the `QuickGrab – Ecommerce.pbix` file in **Power BI Desktop**.  
+2. navigate to the **“Over the Days”** tab (▶️ Over the Days).  
+3. use the **item type** slicer on the left to pick one or multiple categories.  
+4. watch the **line chart** redraw to show monthly sales across outlet sizes.  
+5. check the **waterfall chart** below to see year‑over‑year sales changes for those same categories.  
+6. combine this with your metric slicer (overview page) to pivot between sales, item counts, and ratings across time.
+
+---
+
+### why it matters
+
+this page transforms raw time‑series data into clear stories:  
+- spot seasonal peaks and troughs at a glance  
+- understand which outlet sizes drive growth each month  
+- identify years of rapid expansion or contraction across product lines  
+
+with interactive filters and drill‑down visuals, you get a truly modular toolkit for uncovering hidden trends—day by day and year by year.  
+
 ---
 
 ## license  
